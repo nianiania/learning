@@ -1,0 +1,75 @@
+/*styling web form*/
+
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+fieldset{
+	padding: 40px;
+	border: solid 1px #aaa;
+	background: url('images/1.jpg');
+}
+
+fieldset legend{
+	background: white;
+	padding: 10px;
+	border: solid 1px #aaa;
+
+}
+
+form{
+	margin-top: 40px;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea{
+	padding: 10px;
+	margin: 0 0 20px;
+	border: solid 1px #454545;
+	border-top: none;
+	display: block;
+	width: 46%;
+	font-size: 14px;
+	color:#777;
+	font-family: Monaco, monospace;
+	text-transform: uppercase;
+}
+
+label{
+	font-size: 12px;
+	text-transform: uppercase;
+	background:url('images/cyan.jpg');
+	display: block;
+	width: 46%;
+	padding: 2%;
+	color:white;
+}
+
+textarea{
+resize: none;
+}
+
+input[type='submit']{
+	background: none;
+	background: url('images/2.jpg');
+	height: 40px;
+	border: solid 1px #777;
+	padding: 0 40px;
+	color: #f34;
+}
+
+input[type='submit']:hover{
+	cursor: initial;
+	border: solid 3px;
+}
+
+input[type='submit']:active{
+	border-color: #111;
+	outline-color: white; 
+}
+
+
+
