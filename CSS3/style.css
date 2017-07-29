@@ -9,6 +9,35 @@
 	box-sizing: border-box;
 	border-radius: 50px;
 	border-top-right-radius: 100px;
-	
+
 
 }
+
+
+
+/*style color & gradient*/
+body#colors{
+	background: rgba(25,52,84,1);
+	color:white;
+}
+
+
+#colors #container{
+	width: 600px;
+	margin:0 auto;
+	padding: 40px;
+	box-sizing: border-box;
+	background:rgba(255,255,255,0.1);
+}
+
+
+#colors #box{
+	background: linear-gradient(to right,yellow,green); 
+} 
+/*Note: for color gradient , to style gredient 
+1. to bottom top /right/left
+2. deg  ex: 40deg,
+3. radial-gradient
+
+
+*/
